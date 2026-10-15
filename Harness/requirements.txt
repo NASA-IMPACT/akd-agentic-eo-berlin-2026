@@ -1,0 +1,8 @@
+gradio==6.19.0
+pydantic-ai==2.16.0
+# pydantic-ai 2.16 reads mcp 1.x types; mcp 2.x renamed one it uses and breaks every tool call.
+mcp==1.28.1
+# openai 3.x moved to the httpx2 client library, which the Blablador retry transport (httpx) does not plug into.
+openai==2.47.0
+python-dotenv>=1.0
+httpx>=0.27
