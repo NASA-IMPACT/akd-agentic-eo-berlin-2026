@@ -15,6 +15,7 @@ it, and the slides.
 | [`Artifacts/`](Artifacts/) | The agent's CARE design: what it is for, its tools, how it reasons, what it reports, its guardrails |
 | [`Tools/`](Tools/) | The agent's seven tools as one MCP server, to run locally or on FastMCP Cloud |
 | [`Harness/`](Harness/) | The CARE Artifact Harness: a chat app that runs any CARE artifact with MCP tools on your own model key |
+| [`Hands-on/`](Hands-on/) | Setup from sign-up to a running agent, and the answers to copy into the CARE interview, for pairs and for solo runs |
 | [`Slides/`](Slides/) | Oral talk, hands-on and demo slides |
 
 ## Quick start
@@ -63,7 +64,7 @@ from the rest of the design.
 | `guardrails/` | Rules for safety and scope, and how each is enforced |
 
 To run it elsewhere, give any agent host that speaks MCP the `agents.md` as its system prompt, the tools' MCP
-URL, and a model. In the AKD Agent Co-Design Studio, upload the folder as a zip and attach it to an agent.
+URL, and a model. In the AKD Agent Co-Design Studio, upload [`Artifacts/terramind-eo-inference-agent.zip`](Artifacts/terramind-eo-inference-agent.zip) (the same folder, zipped) and attach it to an agent.
 
 ## The tools
 
