@@ -21,9 +21,9 @@ and those differences are what you settle together in Reconcile.
 
 | Field | Value |
 | --- | --- |
-| Name | `Flood check agent` |
+| Name | `Earth Observation FM Inference Agent` |
 | Description | `Checks whether a named place flooded between two dates, with TerraMind over Sentinel-2, and reports the evidence.` |
-| Model | `DeepSeek-V4.1-Flash (fast, HZDR)`. If it is already selected, leave it. |
+| Model | `DeepSeek-V4.1-Flash (fast, HZDR)`. If it is already selected, leave it. If it errors during the session, switch the design to `DeepSeek-V4.1-Flash (JUWELS)` or `Qwen3.8-Flash-Next`. |
 
 Then, in the design header, **assign** your Developer by their email. They must have signed up first, or
 they will not be in the list; ask them for the email they used.
