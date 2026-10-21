@@ -11,6 +11,18 @@ below. There is no Reconcile step when you work alone: after Stage 4.1 the `agen
 
 ---
 
+## Create the design
+
+**Designs → New design**, from the workshop template:
+
+| Field | Value |
+| --- | --- |
+| Name | `Flood check agent` |
+| Description | `Checks whether a named place flooded between two dates, with TerraMind over Sentinel-2, and reports the evidence.` |
+| Model | `DeepSeek-V4.1-Flash (fast, HZDR)`. If it is already selected, leave it. |
+
+No assignee. Open the interview.
+
 ## Start the interview
 
 

@@ -17,8 +17,10 @@ design, reasoning strategy, and the final `agents.md`.
 
 **In pairs** (recommended). One of you is the **Scientist** and leads, the other is the **Developer**.
 
-1. Scientist: **Designs → New design** from the workshop template. Leave the model on its default
-   (DeepSeek-V4.1-Flash). In the design header, **assign** your Developer.
+1. Scientist: **Designs → New design** from the workshop template. Name `Flood check agent`, description
+   `Checks whether a named place flooded between two dates, with TerraMind over Sentinel-2, and reports the
+   evidence.`, model `DeepSeek-V4.1-Flash (fast, HZDR)`, left as is if already selected. In the design
+   header, **assign** your Developer by the email they signed up with; they must sign up first.
 2. Developer: open the design from your list.
 3. Both: open the interview and type `start`. Answer from your role's file:
    [`care-process-small-pair-scientist.md`](care-process-small-pair-scientist.md) or

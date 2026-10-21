@@ -15,6 +15,19 @@ and those differences are what you settle together in Reconcile.
 
 ---
 
+## Create the design (Scientist)
+
+**Designs → New design**, from the workshop template:
+
+| Field | Value |
+| --- | --- |
+| Name | `Flood check agent` |
+| Description | `Checks whether a named place flooded between two dates, with TerraMind over Sentinel-2, and reports the evidence.` |
+| Model | `DeepSeek-V4.1-Flash (fast, HZDR)`. If it is already selected, leave it. |
+
+Then, in the design header, **assign** your Developer by their email. They must have signed up first, or
+they will not be in the list; ask them for the email they used.
+
 ## Start the interview
 
 

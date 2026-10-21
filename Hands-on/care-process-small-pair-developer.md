@@ -15,6 +15,11 @@ and those differences are what you settle together in Reconcile.
 
 ---
 
+## Open the design (Developer)
+
+Sign up first, then give your Scientist the email you used: they create the design and assign you by that
+email. When they have, open **Designs** and the design `Flood check agent` is there. Open its interview.
+
 ## Start the interview
 
 
